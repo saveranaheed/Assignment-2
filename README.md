@@ -47,7 +47,7 @@ return 0;
 OUTPUT:
 
 ![Program
-Output]!(https://github.com/user-attachments/assets/98c59138-1cfd-41ca-9814-d16664ee69e1)
+Output](https://github.com/user-attachments/assets/98c59138-1cfd-41ca-9814-d16664ee69e1)
 
 TASK#03:
 
@@ -74,7 +74,7 @@ return 0;
 OUTPUT:
 
 ![Program
-Output]!(https://github.com/user-attachments/assets/7ea35170-8fa1-466f-ae90-4d5305a49aaa)
+Output](https://github.com/user-attachments/assets/7ea35170-8fa1-466f-ae90-4d5305a49aaa)
 
 TASK#04:
 
@@ -104,4 +104,4 @@ return 0;
 OUTPUT:
 
 ![Program
-Output]!(https://github.com/user-attachments/assets/e8062f5d-a114-4d2e-bee1-573cab9eae17)
+Output](https://github.com/user-attachments/assets/e8062f5d-a114-4d2e-bee1-573cab9eae17)
