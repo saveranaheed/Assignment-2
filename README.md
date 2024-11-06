@@ -142,6 +142,59 @@ OUTPUT:
 ![Program
 Output](https://github.com/user-attachments/assets/af2dfcd6-a6d3-49d8-a51c-7bc2cdca934a)
 
+Additional Task#01
+
+```cpp
+#include <iostream>
+using namespace std;
+int main() {
+    double priceA = 50.0, priceB = 30.0, priceC = 20.0;
+    int quantityA, quantityB, quantityC;
+    double total, discount = 0.0, shipping = 5.0;
+    int paymentMethod;
+    cout << "Enter quantity for item A: ";
+    cin >> quantityA;
+    cout << "Enter quantity for item B: ";
+    cin >> quantityB;
+    cout << "Enter quantity for item C: ";
+    cin >> quantityC;
+    total = (priceA * quantityA) + (priceB * quantityB) + (priceC * quantityC);
+    if (total > 100) {
+        discount = total * 0.1; 
+    }
+    double totalWithShipping = total - discount + shipping;
+    cout << "Select a payment method (1 for Credit Card, 2 for PayPal, 3 for Cash): ";
+    cin >> paymentMethod;
+    double transactionFee = 0.0;
+    switch (paymentMethod) {
+        case 1: 
+            transactionFee = totalWithShipping * 0.02;
+            break;
+        case 2: 
+            transactionFee = totalWithShipping * 0.03;
+            break;
+        case 3: 
+            transactionFee = 0.0;
+            break;
+        default:
+            cout << "Invalid payment method selected. Defaulting to Cash.\n";
+            transactionFee = 0.0;
+            break;
+    }
+    double totalAfterPayment = totalWithShipping + transactionFee;
+
+    cout << "Total after applying transaction fee: $" << totalAfterPayment << std::endl;
+
+    return 0;
+}
+```
+
+OUTPUT:
+
+![Program
+Output](https://github.com/user-attachments/assets/953314e3-f2e9-4b50-9864-c8584b5c8935)
+
+
 Additional Task#02
 
 ```cpp
